@@ -1,16 +1,16 @@
 # progetto-esame-2026-Cosestrane
 
-##NOME:
+##NOME: Leonardo
 
-##COGNOME:
+##COGNOME: Virgili
 
-##MATRICOLA:
+##MATRICOLA: 395136
 
 --Funzioni implementate--
 
-- Sistema di HP: Aggiunto un sistema di HP per ogni giocatore e nemico, in modo da rendere piu immediato il combattimento. 
+- Sistema di punti vita: Aggiunto un sistema di HP per ogni giocatore e nemico, in modo da rendere piu immediato il combattimento. 
 
-- Difficolta del gioco: Permette di scegliere la difficolta del gioco (FACILE, MEDIO, DIFFICILE). Le difficolta modidificano i seguenti aspetti: 1) Comparsa dei mostri. 2) Comparsa degli oggetti. 
+- Difficolta del gioco: Permette di scegliere la difficolta del gioco (FACILE, MEDIO, DIFFICILE). Le difficolta modificano i seguenti aspetti: 1) Comparsa dei mostri. 2) Comparsa degli oggetti. 
 
         === Probabilità di comparsa dei nemici ===
 
@@ -29,7 +29,24 @@
         Facile (1) |    66,7%       | 33,3%
         Medio  (2) |     50%        | 50%
         Difficile(3)|    25%        | 75%
-
+        
+        === HP dei nemici === 
+        
+        1) HP base: 
+        Nemico	HP base
+        Billi	25
+        Democane	40
+        Demotorzone	90
+        
+        2) Moltiplicatore della difficolta: 
+        --------------------------------
+        Difficolta	  | Moltiplicatore HP
+        --------------------------------
+        Facile (1)	  |     ×1
+        Normale (2)	  |     ×2
+        Difficile (3) |     ×3
+        
+        - In base alla difficolta, si applica un moltiplicatore agli hp dei nemici. 
 
         === Probabilità di comparsa di oggetti ===
 
